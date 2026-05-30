@@ -4,6 +4,8 @@ import canvaLogo from './assets/Canva-logo.png'
 import figmaLogo from './assets/Figma-logo.svg'
 import javaGame from './assets/Java-game.png'
 import medGame from './assets/Med-game.png'
+import pos from './assets/pos.png'
+import careSync from './assets/caresync.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -40,8 +42,7 @@ export default function PortfolioWebsite() {
       description:
         'A responsive dashboard interface designed for doctors to manage patient requests, schedules, and records efficiently.',
       tools: 'VB.Net • Figma • Canva',
-      image:
-        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+      image: pos,
       gallery: [
         'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
@@ -54,8 +55,7 @@ export default function PortfolioWebsite() {
       description:
         'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
       tools: 'Flutter • Figma • Canva',
-      image:
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
+      image: careSync,
       gallery: [
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
