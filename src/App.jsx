@@ -22,7 +22,7 @@ export default function PortfolioWebsite() {
         'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
       ],
-      link: 'https://www.figma.com/',
+      link: 'https://canva.link/zpvi6bu92mgtry6',
     },
     {
       title: 'Reviewer System for Medtech Students',
@@ -35,7 +35,7 @@ export default function PortfolioWebsite() {
         'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
       ],
-      link: 'https://www.figma.com/',
+      link: 'https://canva.link/wmwbqfl9mhqtbof',
     },
     {
       title: 'POS System',
@@ -48,7 +48,7 @@ export default function PortfolioWebsite() {
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop',
       ],
-      link: 'https://www.behance.net/',
+      link: 'https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
     },
     {
       title: 'Mobile Health Application System',
@@ -61,7 +61,7 @@ export default function PortfolioWebsite() {
         'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop',
       ],
-      link: 'https://dribbble.com/',
+      link: 'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
     },
   ];
 
