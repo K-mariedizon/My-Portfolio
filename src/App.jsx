@@ -72,7 +72,7 @@ export default function PortfolioWebsite() {
   };
 
   const openResume = () => {
-    window.open('https://www.canva.com/resumes/', '_blank');
+  window.open('/resume.pdf', '_blank');
   };
 
   const openLinkedIn = () => {
@@ -315,7 +315,7 @@ export default function PortfolioWebsite() {
 
           <div className="flex flex-col md:flex-row gap-5 justify-center">
             <button className="bg-white text-amber-800 px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition">
-              your@email.com
+              kianamariedizon@gmail.com
             </button>
 
             <button
