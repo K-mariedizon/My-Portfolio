@@ -76,7 +76,7 @@ export default function PortfolioWebsite() {
   };
 
   const openLinkedIn = () => {
-    window.open('https://www.linkedin.com/', '_blank');
+    window.open('https://www.linkedin.com/in/kiana-marie-dizon', '_blank');
   };
 
 
