@@ -113,8 +113,8 @@ export default function PortfolioWebsite() {
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              Sebastian Cervantes's 
-              <span className="text-amber-900"> Wife</span>
+              Kiana Marie 
+              <span className="text-amber-900"> Dizon </span>
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
