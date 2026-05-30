@@ -72,7 +72,7 @@ export default function PortfolioWebsite() {
   };
 
   const openResume = () => {
-  window.open('https://drive.google.com/file/d/1FZYAjbnMdiiO_2A1tOi-QnR7NqtkOhKy/view?usp=sharing', '_blank');
+  window.open('/resume.pdf', '_blank');
   };
 
   const openLinkedIn = () => {
