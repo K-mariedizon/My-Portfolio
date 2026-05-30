@@ -2,7 +2,7 @@ import { useState } from 'react';
 import profilePic from './assets/profile.jpg'
 import canvaLogo from './assets/Canva-logo.png'
 import figmaLogo from './assets/Figma-logo.svg'
-import javaGame from './assets/Java-gama.png'
+import javaGame from './assets/Java-game.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
