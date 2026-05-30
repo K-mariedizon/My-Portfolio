@@ -318,7 +318,7 @@ export default function PortfolioWebsite() {
                 href="mailto:kianamariedizon@gmail.com"
                 className="bg-white text-amber-800 px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition inline-block"
               >
-                Email
+                Send Email
               </a>
            
 
