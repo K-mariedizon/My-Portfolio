@@ -18,9 +18,7 @@ export default function PortfolioWebsite() {
       tools: 'Java • Canva • UI Design',
       image: javaGame,
       gallery: [
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
+        javaGame
       ],
       link: 'https://canva.link/zpvi6bu92mgtry6',
     },
@@ -31,9 +29,7 @@ export default function PortfolioWebsite() {
       tools: 'VB.Net • Canva • UI Design',
       image: medGame,
       gallery: [
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
+        medGame
       ],
       link: 'https://canva.link/wmwbqfl9mhqtbof',
     },
@@ -44,9 +40,7 @@ export default function PortfolioWebsite() {
       tools: 'VB.Net • Figma • Canva',
       image: pos,
       gallery: [
-        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop',
+        pos
       ],
       link: 'https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
     },
@@ -57,9 +51,7 @@ export default function PortfolioWebsite() {
       tools: 'Flutter • Figma • Canva',
       image: caresync,
       gallery: [
-        'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop',
+        caresync
       ],
       link: 'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
     },
