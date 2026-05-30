@@ -2,16 +2,30 @@ import { useState } from 'react';
 import profilePic from './assets/profile.jpg'
 import canvaLogo from './assets/Canva-logo.png'
 import figmaLogo from './assets/Figma-logo.svg'
+import javaGame from './assets/Java-gama.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
-      title: 'Health Records Mobile App',
+      title: 'Desktop Game',
       description:
-        'A healthcare mobile app focused on managing medical records, appointments, and patient information through a clean and modern user experience.',
-      tools: 'Figma • Flutter • UI Design',
+        'Built a “Room discovery” desktop game using Java. The game includes hidden items, math questions and riddles.',
+      tools: 'Java • Canva • UI Design',
+      image: javaGame,
+      gallery: [
+        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
+      ],
+      link: 'https://www.figma.com/',
+    },
+    {
+      title: 'Reviewer System for Medtech Students',
+      description:
+        'Developed a desktop application for medical technology students to review lectures and play educational games.',
+      tools: 'VB.Net • Canva • UI Design',
       image:
         'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
       gallery: [
@@ -22,24 +36,10 @@ export default function PortfolioWebsite() {
       link: 'https://www.figma.com/',
     },
     {
-      title: 'Health Records Mobile App',
-      description:
-        'A healthcare mobile app focused on managing medical records, appointments, and patient information through a clean and modern user experience.',
-      tools: 'Figma • Flutter • UI Design',
-      image:
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
-      gallery: [
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=1200&auto=format&fit=crop',
-      ],
-      link: 'https://www.figma.com/',
-    },
-    {
-      title: 'Doctor Dashboard System',
+      title: 'POS System',
       description:
         'A responsive dashboard interface designed for doctors to manage patient requests, schedules, and records efficiently.',
-      tools: 'Dashboard Design • UX Research • Prototyping',
+      tools: 'VB.Net • Figma • Canva',
       image:
         'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
       gallery: [
@@ -50,10 +50,10 @@ export default function PortfolioWebsite() {
       link: 'https://www.behance.net/',
     },
     {
-      title: 'Queue Management Research UI',
+      title: 'Mobile Health Record Management and Patient Reminder Application System',
       description:
         'A research-based queue management dashboard focused on data visualization and service optimization.',
-      tools: 'Data Visualization • Figma • UX Analysis',
+      tools: 'Flutter • Figma • Canva',
       image:
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
       gallery: [
