@@ -355,7 +355,7 @@ export default function PortfolioWebsite() {
                   key={index}
                   src={image}
                   alt="Project UI"
-                  className="rounded-3xl shadow-lg w-full h-80 object-cover"
+                  className="rounded-xl shadow-lg w-full h-80 object-cover"
                 />
               ))}
             </div>
