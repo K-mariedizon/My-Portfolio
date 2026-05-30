@@ -52,7 +52,7 @@ export default function PortfolioWebsite() {
     {
       title: 'Mobile Health Record Management and Patient Reminder Application System',
       description:
-        'A research-based queue management dashboard focused on data visualization and service optimization.',
+        'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
       tools: 'Flutter • Figma • Canva',
       image:
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
