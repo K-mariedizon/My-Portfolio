@@ -315,7 +315,12 @@ export default function PortfolioWebsite() {
 
           <div className="flex flex-col md:flex-row gap-5 justify-center">
             <button className="bg-white text-amber-800 px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition">
-              kianamariedizon@gmail.com
+              <a
+                href="mailto:kianadizon@gmail.com"
+                className="bg-white text-stone-800 px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition inline-block"
+              >
+                kianadizon@gmail.com
+              </a>
             </button>
 
             <button
