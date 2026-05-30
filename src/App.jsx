@@ -261,7 +261,7 @@ export default function PortfolioWebsite() {
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="bg-[#fafafa] rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300"
+                className="bg-[#fafafa] rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition duration-300 flex flex-col h-full"
               >
                 <img
                   src={project.image}
@@ -269,33 +269,39 @@ export default function PortfolioWebsite() {
                   className="h-48 w-full object-cover"
                 />
 
-                <div className="p-5">
+                <div className="p-5 flex flex-col flex-1">
+
                   <h3 className="text-xl font-bold mb-2">
                     {project.title}
                   </h3>
 
-                  <p className="text-gray-600 leading-relaxed mb-5">
+                  <p className="text-gray-600 leading-relaxed mb-4">
                     {project.description}
                   </p>
 
-                  <p className="text-sm text-amber-800 font-medium mb-6">
-                    {project.tools}
-                  </p>
+                  {/* pushes everything below to bottom */}
+                  <div className="mt-auto">
 
-                  <div className="flex gap-3">
-                    <button
-                      onClick={() => setSelectedProject(project)}
-                      className="flex-1 bg-amber-800 hover:bg-amber-900 text-white py-3 rounded-2xl transition"
-                    >
-                      View Design
-                    </button>
+                    <p className="text-sm text-amber-800 font-medium mb-4">
+                      {project.tools}
+                    </p>
 
-                    <button
-                      onClick={() => window.open(project.link, '_blank')}
-                      className="flex-1 border border-gray-200 hover:border-amber-700 hover:text-amber-900 py-3 rounded-2xl transition bg-white"
-                    >
-                      Open Link
-                    </button>
+                    <div className="flex gap-3">
+                      <button
+                        onClick={() => setSelectedProject(project)}
+                        className="flex-1 bg-amber-800 hover:bg-amber-900 text-white py-3 rounded-2xl transition"
+                      >
+                        View Design
+                      </button>
+
+                      <button
+                        onClick={() => window.open(project.link, '_blank')}
+                        className="flex-1 border border-gray-200 hover:border-amber-700 hover:text-amber-900 py-3 rounded-2xl transition bg-white"
+                      >
+                        Open Link
+                      </button>
+                    </div>
+
                   </div>
                 </div>
               </div>
