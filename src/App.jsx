@@ -3,6 +3,7 @@ import profilePic from './assets/profile.jpg'
 import canvaLogo from './assets/Canva-logo.png'
 import figmaLogo from './assets/Figma-logo.svg'
 import javaGame from './assets/Java-game.png'
+import medGame from './assets/Med-game.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -26,8 +27,7 @@ export default function PortfolioWebsite() {
       description:
         'Developed a desktop application for medical technology students to review lectures and play educational games.',
       tools: 'VB.Net • Canva • UI Design',
-      image:
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
+      image: medGame,
       gallery: [
         'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
