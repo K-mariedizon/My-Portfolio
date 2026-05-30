@@ -5,7 +5,7 @@ import figmaLogo from './assets/Figma-logo.svg'
 import javaGame from './assets/Java-game.png'
 import medGame from './assets/Med-game.png'
 import pos from './assets/pos.png'
-import careSync from './assets/Caresync.png'
+import caresync from './assets/Caresync.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -55,7 +55,7 @@ export default function PortfolioWebsite() {
       description:
         'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
       tools: 'Flutter • Figma • Canva',
-      image: careSync,
+      image: caresync,
       gallery: [
         'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
