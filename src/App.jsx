@@ -315,10 +315,10 @@ export default function PortfolioWebsite() {
 
           <div className="flex flex-col md:flex-row gap-5 justify-center">
               <a
-                href="mailto:kianadizon@gmail.com"
+                href="mailto:kianamariedizon@gmail.com"
                 className="bg-white text-amber-800 px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition inline-block"
               >
-                kianadizon@gmail.com
+                kianamariedizon@gmail.com
               </a>
            
 
