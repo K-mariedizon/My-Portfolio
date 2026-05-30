@@ -5,7 +5,7 @@ import figmaLogo from './assets/Figma-logo.svg'
 import javaGame from './assets/Java-game.png'
 import medGame from './assets/Med-game.png'
 import pos from './assets/pos.png'
-import careSync from './assets/caresync.png'
+import careSync from './assets/Caresync.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
