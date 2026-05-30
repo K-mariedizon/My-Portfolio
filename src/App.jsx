@@ -5,7 +5,7 @@ import figmaLogo from './assets/Figma-logo.svg'
 import javaGame from './assets/Java-game.png'
 import medGame from './assets/Med-game.png'
 import pos from './assets/pos.png'
-import caresync from './assets/caresync.png'
+import caresync from './assets/Caresync.png'
 
 export default function PortfolioWebsite() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -51,7 +51,7 @@ export default function PortfolioWebsite() {
       link: 'https://www.behance.net/',
     },
     {
-      title: 'Mobile Health Record Management and Patient Reminder Application System',
+      title: 'Mobile Health Application System',
       description:
         'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
       tools: 'Flutter • Figma • Canva',
