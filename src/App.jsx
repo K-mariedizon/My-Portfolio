@@ -101,7 +101,7 @@ export default function PortfolioWebsite() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-2xl md:text-3xl text-gray-600 leading-tight mb-6">
-              Hello,
+              Hi,
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
