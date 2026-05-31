@@ -77,7 +77,7 @@ export default function PortfolioWebsite() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-amber-900">Kiana.</h1>
+          <h1 className="text-2xl font-bold text-amber-900">KD</h1>
 
           <div className="hidden md:flex gap-8 text-gray-600 font-medium">
             <a href="#about" className="hover:text-amber-900 transition">
