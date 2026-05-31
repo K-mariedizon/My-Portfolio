@@ -97,7 +97,7 @@ export default function PortfolioWebsite() {
       </nav>
 
       {/* Hero Section */}
-      <section className="px-8 md:px-20 pt-24 pb-24 bg-[#f8f4ef]">
+      <section className="px-8 md:px-20 pt-24 pb-24 bg-[#FBF8F4]">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
