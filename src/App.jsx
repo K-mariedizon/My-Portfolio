@@ -192,7 +192,7 @@ export default function PortfolioWebsite() {
       </section>
 
       {/* Skills and Tools*/}
-      <section id="skills" className="px-8 md:px-20 py-24 bg-[#f8f4ef]">
+      <section id="skills" className="px-8 md:px-20 py-24 bg-[#FBF8F4]">
         <div className="max-w-6xl mx-auto">
 
           <div className="text-center mb-16">
@@ -303,7 +303,7 @@ export default function PortfolioWebsite() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="px-8 md:px-20 py-24 bg-[#f8f4ef]">
+      <section id="contact" className="px-8 md:px-20 py-24 bg-[#FBF8F4]">
         <div className="max-w-5xl mx-auto bg-amber-900 rounded-[3rem] p-14 text-center text-white shadow-2xl">
           <h2 className="text-5xl font-bold mb-6">Let’s Work Together</h2>
 
