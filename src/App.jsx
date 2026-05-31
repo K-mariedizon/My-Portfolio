@@ -104,8 +104,8 @@ export default function PortfolioWebsite() {
               UI/UX Designer Portfolio
             </p>
 
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-              I'm Kiana Marie <span className="text-amber-900"> Dizon </span>
+            <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
+              I'm Kiana<span className="text-amber-900"> Dizon</span>
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
