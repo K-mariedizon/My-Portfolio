@@ -108,7 +108,7 @@ export default function PortfolioWebsite() {
               I'm <span className="text-amber-900"> Kiana Dizon</span>
             </h1>
 
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-xl">
+            <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
               an aspiring UI/UX designer passionate about creating
               clean, modern, and user-friendly interfaces for mobile and web
               applications.
