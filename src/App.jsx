@@ -100,15 +100,15 @@ export default function PortfolioWebsite() {
       <section className="px-8 md:px-20 pt-24 pb-24 bg-[#f8f4ef]">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-4">
-              UI/UX Designer Portfolio
+            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-xl">
+              Hello,
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              I'm Kiana<span className="text-amber-900"> Dizon</span>
+              I'm <span className="text-amber-900"> Kiana Dizon</span>
             </h1>
 
-            <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
+            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-xl">
               an aspiring UI/UX designer passionate about creating
               clean, modern, and user-friendly interfaces for mobile and web
               applications.
