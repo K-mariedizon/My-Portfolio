@@ -105,12 +105,11 @@ export default function PortfolioWebsite() {
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              Kiana Marie 
-              <span className="text-amber-900"> Dizon </span>
+              I'm Kiana Marie <span className="text-amber-900"> Dizon </span>
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
-              I’m Kiana, an aspiring UI/UX designer passionate about creating
+              an aspiring UI/UX designer passionate about creating
               clean, modern, and user-friendly interfaces for mobile and web
               applications.
             </p>
