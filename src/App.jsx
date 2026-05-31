@@ -100,8 +100,8 @@ export default function PortfolioWebsite() {
       <section className="px-8 md:px-20 pt-24 pb-24 bg-[#f8f4ef]">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-2xl md:text-3xl text-gray-600 leading-tight mb-6">
-              Hi,
+            <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
+              UI/UX Designer Portfolio
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
