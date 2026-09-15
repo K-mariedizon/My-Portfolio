@@ -104,20 +104,19 @@ export default function PortfolioWebsite() {
       <section className="px-8 md:px-20 pt-24 pb-24 bg-[#FBF8F4]">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
-              UI/UX Designer Portfolio
-            </p>
+           <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
+             Developer • UI/UX Designer
+          </p>
 
-            <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              I'm <span className="text-amber-900"> Kiana Dizon</span>
-            </h1>
+         <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
+           I'm <span className="text-amber-900">Kiana Dizon</span>
+         </h1>
 
-            <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
-              an aspiring UI/UX designer passionate about creating
-              clean, modern, and user-friendly interfaces for mobile and web
-              applications.
-            </p>
-
+         <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
+           An aspiring software developer and UI/UX designer passionate about
+           building functional, user-friendly, and visually engaging digital
+           experiences across web, mobile, and desktop applications.
+         </p>
             <div className="flex flex-wrap gap-4">
               <button
                 onClick={scrollToProjects}
@@ -156,42 +155,54 @@ export default function PortfolioWebsite() {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-5xl font-bold mb-8">About Me</h2>
 
-          <p className="text-lg text-gray-600 leading-relaxed">
-            I recently graduated with a degree in BS Applied Mathematics –
-            Information Technology Track. My passion for UI/UX design comes
-            from combining creativity and problem-solving to create meaningful
-            digital experiences.
-          </p>
+<p className="text-lg text-gray-600 leading-relaxed">
+  I recently graduated with a degree in BS Applied Mathematics –
+  Information Technology Track. I enjoy combining programming,
+  problem-solving, and design to build functional and user-friendly
+  digital experiences. I have experience working with web, mobile,
+  desktop applications, databases, and UI/UX design.
+</p>
         </div>
 
-        <div className="mt-8 text-center">
+        <div className="grid md:grid-cols-4 gap-3">
 
-            <p className="uppercase tracking-[0.3em] text-black-500 mb-8">
-              TOOLS I WORK WITH
-            </p>
+  <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
+    <h3 className="text-xl font-semibold mb-2">
+      Frontend Development
+    </h3>
+    <p className="text-stone-600 text-sm">
+      Building responsive and interactive web and application interfaces.
+    </p>
+  </div>
 
-            <div className="flex justify-center items-center gap-16">
+  <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
+    <h3 className="text-xl font-semibold mb-2">
+      Backend & Database
+    </h3>
+    <p className="text-stone-600 text-sm">
+      Developing application logic and managing data and databases.
+    </p>
+  </div>
 
-              <div>
-                <img
-                  src={figmaLogo}
-                  alt="Figma"
-                  className="w-14 h-14 mx-auto mb-3"
-                />
-                <p className="font-medium">Figma</p>
-              </div>
+  <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
+    <h3 className="text-xl font-semibold mb-2">
+      Mobile Development
+    </h3>
+    <p className="text-stone-600 text-sm">
+      Developing mobile applications using Flutter and Dart.
+    </p>
+  </div>
 
-              <div>
-                <img
-                  src={canvaLogo}
-                  alt="Canva"
-                  className="w-14 h-14 mx-auto mb-3"
-                />
-                <p className="font-medium">Canva</p>
-              </div>
+  <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
+    <h3 className="text-xl font-semibold mb-2">
+      UI/UX Design
+    </h3>
+    <p className="text-stone-600 text-sm">
+      Designing intuitive interfaces, wireframes, and prototypes.
+    </p>
+  </div>
 
-            </div>
-          </div>
+</div>
 
       </section>
 
