@@ -686,7 +686,7 @@ export default function PortfolioWebsite() {
               </h3>
 
               <p className="text-stone-600 leading-relaxed">
-                HTML • CSS • PHP • JavaScript
+                HTML • CSS • PHP • React • JavaScript
               </p>
             </div>
 
