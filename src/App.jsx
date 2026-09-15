@@ -132,7 +132,7 @@ export default function PortfolioWebsite() {
           </div>
 
           <div className="relative">
-            <div className="absolute -top-0 -left-0 w-48 h-48 bg-black-500 rounded-full blur-3xl opacity-60"></div>
+            <div className="absolute -top-0 -left-0 w-48 h-48 bg-amber-500 rounded-full blur-3xl opacity-60"></div>
             <div className="absolute bottom-0 right-0 w-48 h-48 bg-black-500 rounded-full blur-3xl opacity-60"></div>
 
             <div className="relative p-5 bg-[#f5f1eb] rounded-[2.5rem] shadow-xl">
