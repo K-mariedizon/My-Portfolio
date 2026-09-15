@@ -816,121 +816,132 @@ export default function PortfolioWebsite() {
 
 
       {/* ================= PROJECTS ================= */}
-      <section
-        id="projects"
-        className="px-6 md:px-12 py-24 md:py-32 bg-[#F8F6F2]"
-      >
-        <div className="max-w-7xl mx-auto">
+      {/* Projects */}
+<section id="projects" className="py-24 px-6 md:px-12 lg:px-20 bg-[#F8FAFC]">
+  <div className="max-w-7xl mx-auto">
 
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+    {/* Section Header */}
+    <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+      <div>
+        <p className="text-sm tracking-[0.3em] uppercase text-blue-600 mb-4">
+          Selected Work
+        </p>
 
-            <div>
-              <p className="text-sm uppercase tracking-[0.25em] text-stone-400 mb-4">
-                Selected Work
-              </p>
+        <h2 className="text-4xl md:text-5xl font-semibold text-slate-900">
+          Featured Projects
+        </h2>
+      </div>
 
-              <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
-                Featured Projects
-              </h2>
+      <p className="max-w-md text-slate-600 leading-relaxed">
+        A collection of projects showcasing my experience across
+        development, design, databases, and problem-solving.
+      </p>
+    </div>
+
+    {/* Projects Grid */}
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+      {projects.map((project, index) => (
+        <article
+          key={project.title}
+          className="group border border-slate-200 bg-white rounded-2xl overflow-hidden
+                     transition-all duration-300 hover:border-blue-300
+                     hover:shadow-xl hover:shadow-slate-200/50"
+        >
+
+          {/* Project Image */}
+          <div className="p-4 md:p-5">
+            <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-[280px] md:h-[330px] object-cover
+                           transition-transform duration-500
+                           group-hover:scale-[1.02]"
+              />
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="mx-5 border-t border-slate-200"></div>
+
+          {/* Project Information */}
+          <div className="p-6 md:p-7">
+
+            {/* Category + Number */}
+            <div className="flex items-center justify-between mb-4">
+              <span className="text-sm font-medium text-blue-600">
+                {index === 0
+                  ? "Desktop Application"
+                  : index === 1
+                  ? "Desktop Application"
+                  : index === 2
+                  ? "Desktop Application"
+                  : "Mobile Application"}
+              </span>
+
+              <span className="text-sm text-slate-400 font-mono">
+                {String(index + 1).padStart(2, "0")}
+              </span>
             </div>
 
-            <p className="max-w-md text-stone-500 leading-relaxed">
-              A collection of projects showcasing my experience
-              across development, design, databases, and problem-solving.
+            {/* Title */}
+            <h3 className="text-2xl font-semibold text-slate-900 mb-3">
+              {project.title}
+            </h3>
+
+            {/* Description */}
+            <p className="text-slate-600 leading-relaxed mb-5 max-w-xl">
+              {project.description}
             </p>
 
-          </div>
+            {/* Tools */}
+            <div className="flex flex-wrap gap-2 mb-7">
+              {project.tools.split(" • ").map((tool) => (
+                <span
+                  key={tool}
+                  className="px-3 py-1.5 text-xs font-medium
+                             text-slate-600 bg-slate-100
+                             border border-slate-200 rounded-full"
+                >
+                  {tool}
+                </span>
+              ))}
+            </div>
 
+            {/* Bottom Divider */}
+            <div className="border-t border-slate-200 pt-5 flex items-center justify-between">
 
-          <div className="grid md:grid-cols-2 gap-x-8 gap-y-16">
-
-            {projects.map((project, index) => (
-
-              <article
-                key={project.title}
-                className="group"
+              <a
+                href={project.designLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-slate-900
+                           hover:text-blue-600 transition-colors"
               >
+                View Design
+                <span className="ml-2">↗</span>
+              </a>
 
-                {/* Image */}
-                <div className="relative overflow-hidden bg-[#EDE7DF] rounded-[1.5rem] mb-6">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-slate-500
+                           hover:text-slate-900 transition-colors"
+              >
+                GitHub
+                <span className="ml-2">↗</span>
+              </a>
 
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full aspect-[16/10] object-cover group-hover:scale-[1.03] transition duration-500"
-                  />
-
-                </div>
-
-
-                {/* Project information */}
-                <div>
-
-                  <div className="flex items-center justify-between gap-4 mb-3">
-
-                    <div>
-                      <p className="text-sm text-amber-900 font-medium mb-2">
-                        {project.category}
-                      </p>
-
-                      <h3 className="text-2xl font-semibold">
-                        {project.title}
-                      </h3>
-                    </div>
-
-                    <span className="text-sm text-stone-400">
-                      0{index + 1}
-                    </span>
-
-                  </div>
-
-
-                  <p className="text-stone-600 leading-relaxed max-w-xl mb-4">
-                    {project.description}
-                  </p>
-
-
-                  <p className="text-sm text-stone-500 mb-6">
-                    {project.tools}
-                  </p>
-
-
-                  <div className="flex gap-3">
-
-                    <a
-                      href={project.designLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-amber-900 text-white px-5 py-3 rounded-full text-sm hover:bg-amber-950 transition"
-                    >
-                      View Design
-                      <span>↗</span>
-                    </a>
-
-
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 border border-stone-300 px-5 py-3 rounded-full text-sm hover:border-amber-900 hover:text-amber-900 transition"
-                    >
-                      GitHub
-                      <span>↗</span>
-                    </a>
-
-                  </div>
-
-                </div>
-
-              </article>
-
-            ))}
-
+            </div>
           </div>
+        </article>
+      ))}
 
-        </div>
-      </section>
-
+    </div>
+  </div>
+</section>
 
       {/* ================= CONTACT ================= */}
       <section
