@@ -20,7 +20,7 @@ export default function PortfolioWebsite() {
       gallery: [
         javaGame
       ],
-      link: 'https://canva.link/zpvi6bu92mgtry6',
+      link: 'https://github.com/K-mariedizon/JavaGame.git', //https://canva.link/zpvi6bu92mgtry6',
     },
     {
       title: 'Reviewer System for Medtech Students',
