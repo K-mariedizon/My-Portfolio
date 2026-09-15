@@ -12,49 +12,53 @@ export default function PortfolioWebsite() {
 
   const projects = [
     {
-      title: 'Desktop Game',
-      description:
-        'Built a “Room discovery” desktop game using Java. The game includes hidden items, math questions and riddles.',
-      tools: 'Java • Canva • UI Design',
-      image: javaGame,
-      gallery: [
-        javaGame
-      ],
-      link: 'https://github.com/K-mariedizon/JavaGame.git', //https://canva.link/zpvi6bu92mgtry6',
-    },
-    {
-      title: 'Reviewer System for Medtech Students',
-      description:
-        'Developed a desktop application for medical technology students to review lectures and play educational games.',
-      tools: 'VB.Net • Canva • UI Design',
-      image: medGame,
-      gallery: [
-        medGame
-      ],
-      link: 'https://github.com/K-mariedizon/MedTech-Reviewer-System.git', //https://canva.link/wmwbqfl9mhqtbof',
-    },
-    {
-      title: 'POS System',
-      description:
-        'A responsive dashboard interface designed for doctors to manage patient requests, schedules, and records efficiently.',
-      tools: 'VB.Net • Figma • Canva',
-      image: pos,
-      gallery: [
-        pos
-      ],
-      link: 'https://github.com/K-mariedizon/POS-System.git', //https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
-    },
-    {
-      title: 'Mobile Health Application System',
-      description:
-        'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
-      tools: 'Flutter • Figma • Canva',
-      image: caresync,
-      gallery: [
-        caresync
-      ],
-      link: 'https://github.com/K-mariedizon/Mobile-Health-Application.git', //'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
-    },
+  title: 'Desktop Game',
+  description:
+    'Built a “Room discovery” desktop game using Java. The game includes hidden items, math questions and riddles.',
+  tools: 'Java • Canva • UI Design',
+  image: javaGame,
+  gallery: [
+    javaGame
+  ],
+  designLink: 'https://canva.link/zpvi6bu92mgtry6',
+  link: 'https://github.com/K-mariedizon/JavaGame',
+},
+{
+  title: 'Reviewer System for Medtech Students',
+  description:
+    'Developed a desktop application for medical technology students to review lectures and play educational games.',
+  tools: 'VB.Net • Canva • UI Design',
+  image: medGame,
+  gallery: [
+    medGame
+  ],
+  designLink: 'https://canva.link/wmwbqfl9mhqtbof',
+  link: 'https://github.com/K-mariedizon/MedTech-Reviewer-System',
+},
+{
+  title: 'POS System',
+  description:
+    'A responsive dashboard interface designed for doctors to manage patient requests, schedules, and records efficiently.',
+  tools: 'VB.Net • Figma • Canva',
+  image: pos,
+  gallery: [
+    pos
+  ],
+  designLink: 'https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
+  link: 'https://github.com/K-mariedizon/POS-System',
+},
+{
+  title: 'Mobile Health Application System',
+  description:
+    'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
+  tools: 'Flutter • Figma • Canva',
+  image: caresync,
+  gallery: [
+    caresync
+  ],
+  designLink: 'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
+  link: 'https://github.com/K-mariedizon/Mobile-Health-Application',
+},
   ];
 
   const scrollToProjects = () => {
@@ -279,19 +283,23 @@ export default function PortfolioWebsite() {
                     </p>
 
                     <div className="flex gap-3">
-                      <button
-                        onClick={() => setSelectedProject(project)}
-                        className="flex-1 bg-amber-800 hover:bg-amber-900 text-white py-3 rounded-2xl transition"
-                      >
-                        View Design
-                      </button>
+                      <a
+  href={project.designLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex-1 bg-amber-800 hover:bg-amber-900 text-white py-3 rounded-2xl transition text-center"
+>
+  View Design
+</a>
 
-                      <button
-                        onClick={() => window.open(project.link, '_blank')}
-                        className="flex-1 border border-gray-200 hover:border-amber-700 hover:text-amber-900 py-3 rounded-2xl transition bg-white"
-                      >
-                        Open Link
-                      </button>
+<a
+  href={project.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex-1 border border-gray-200 hover:border-amber-700 hover:text-amber-900 py-3 rounded-2xl transition bg-white text-center"
+>
+  GitHub
+</a>
                     </div>
 
                   </div>
