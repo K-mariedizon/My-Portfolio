@@ -843,100 +843,91 @@ export default function PortfolioWebsite() {
 
       {projects.map((project, index) => (
         <article
-          key={project.title}
-          className="group border border-slate-200 bg-white rounded-2xl overflow-hidden
-                     transition-all duration-300 hover:border-blue-300
-                     hover:shadow-xl hover:shadow-slate-200/50"
+  className="group border border-[#E5DED5] bg-[#F8F6F2]
+             rounded-2xl overflow-hidden
+             transition-all duration-300
+             hover:border-amber-900/30
+             hover:shadow-lg hover:shadow-black/5"
+>
+  {/* Image */}
+  <div className="p-4 md:p-5">
+    <div className="overflow-hidden rounded-xl border border-[#E5DED5]">
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-[280px] md:h-[330px] object-cover
+                   transition-transform duration-500
+                   group-hover:scale-[1.02]"
+      />
+    </div>
+  </div>
+
+  {/* Divider */}
+  <div className="mx-5 border-t border-[#E5DED5]"></div>
+
+  {/* Project Details */}
+  <div className="p-6 md:p-7">
+
+    <div className="flex items-center justify-between mb-4">
+      <span className="text-sm font-medium text-amber-900">
+        {project.category}
+      </span>
+
+      <span className="text-sm text-[#A69B91]">
+        {String(index + 1).padStart(2, "0")}
+      </span>
+    </div>
+
+    <h3 className="text-2xl font-semibold text-[#171411] mb-3">
+      {project.title}
+    </h3>
+
+    <p className="text-[#6F665E] leading-relaxed mb-5">
+      {project.description}
+    </p>
+
+    {/* Tools */}
+    <div className="flex flex-wrap gap-2 mb-7">
+      {project.tools.split(" • ").map((tool) => (
+        <span
+          key={tool}
+          className="px-3 py-1.5 text-xs font-medium
+                     text-[#6F665E]
+                     bg-[#F1ECE6]
+                     border border-[#E5DED5]
+                     rounded-full"
         >
+          {tool}
+        </span>
+      ))}
+    </div>
 
-          {/* Project Image */}
-          <div className="p-4 md:p-5">
-            <div className="relative overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-[280px] md:h-[330px] object-cover
-                           transition-transform duration-500
-                           group-hover:scale-[1.02]"
-              />
-            </div>
-          </div>
+    {/* Bottom Divider */}
+    <div className="border-t border-[#E5DED5] pt-5 flex items-center justify-between">
 
-          {/* Divider */}
-          <div className="mx-5 border-t border-slate-200"></div>
+      <a
+        href={project.designLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm font-medium text-amber-900
+                   hover:text-amber-700 transition-colors"
+      >
+        View Design <span className="ml-1">↗</span>
+      </a>
 
-          {/* Project Information */}
-          <div className="p-6 md:p-7">
+      <a
+        href={project.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm font-medium text-[#6F665E]
+                   hover:text-[#171411] transition-colors"
+      >
+        GitHub <span className="ml-1">↗</span>
+      </a>
 
-            {/* Category + Number */}
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-sm font-medium text-blue-600">
-                {index === 0
-                  ? "Desktop Application"
-                  : index === 1
-                  ? "Desktop Application"
-                  : index === 2
-                  ? "Desktop Application"
-                  : "Mobile Application"}
-              </span>
-
-              <span className="text-sm text-slate-400 font-mono">
-                {String(index + 1).padStart(2, "0")}
-              </span>
-            </div>
-
-            {/* Title */}
-            <h3 className="text-2xl font-semibold text-slate-900 mb-3">
-              {project.title}
-            </h3>
-
-            {/* Description */}
-            <p className="text-slate-600 leading-relaxed mb-5 max-w-xl">
-              {project.description}
-            </p>
-
-            {/* Tools */}
-            <div className="flex flex-wrap gap-2 mb-7">
-              {project.tools.split(" • ").map((tool) => (
-                <span
-                  key={tool}
-                  className="px-3 py-1.5 text-xs font-medium
-                             text-slate-600 bg-slate-100
-                             border border-slate-200 rounded-full"
-                >
-                  {tool}
-                </span>
-              ))}
-            </div>
-
-            {/* Bottom Divider */}
-            <div className="border-t border-slate-200 pt-5 flex items-center justify-between">
-
-              <a
-                href={project.designLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-slate-900
-                           hover:text-blue-600 transition-colors"
-              >
-                View Design
-                <span className="ml-2">↗</span>
-              </a>
-
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-medium text-slate-500
-                           hover:text-slate-900 transition-colors"
-              >
-                GitHub
-                <span className="ml-2">↗</span>
-              </a>
-
-            </div>
-          </div>
-        </article>
+    </div>
+  </div>
+</article>
       ))}
 
     </div>
