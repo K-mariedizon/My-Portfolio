@@ -15,7 +15,7 @@ export default function PortfolioWebsite() {
   title: 'Desktop Game',
   description:
     'Built a “Room discovery” desktop game using Java. The game includes hidden items, math questions and riddles.',
-  tools: 'Java • Canva • UI Design',
+  tools: 'Java • WindowBuilder • Canva',
   image: javaGame,
   gallery: [
     javaGame
@@ -27,7 +27,7 @@ export default function PortfolioWebsite() {
   title: 'Reviewer System for Medtech Students',
   description:
     'Developed a desktop application for medical technology students to review lectures and play educational games.',
-  tools: 'VB.Net • Canva • UI Design',
+  tools: 'VB.NET • MS Access • Windows Forms • Canva',
   image: medGame,
   gallery: [
     medGame
@@ -39,7 +39,7 @@ export default function PortfolioWebsite() {
   title: 'POS System',
   description:
     'A responsive dashboard interface designed for doctors to manage patient requests, schedules, and records efficiently.',
-  tools: 'VB.Net • Figma • Canva',
+  tools: 'VB.NET • MS Access • Figma',
   image: pos,
   gallery: [
     pos
@@ -51,7 +51,7 @@ export default function PortfolioWebsite() {
   title: 'Mobile Health Application System',
   description:
     'Built a front-end mobile application using Flutter to help users track vital health metrics and receive medication or appointment reminders.',
-  tools: 'Flutter • Figma • Canva',
+  tools: 'Flutter • Dart • Figma',
   image: caresync,
   gallery: [
     caresync
@@ -164,6 +164,74 @@ export default function PortfolioWebsite() {
 </p>
         </div>
 
+        {/* Technologies & Tools */}
+<section className="px-8 md:px-20 py-20 bg-white">
+  <div className="max-w-6xl mx-auto">
+
+    <div className="text-center mb-14">
+      <p className="uppercase tracking-[0.3em] text-gray-500 mb-3">
+        TECHNOLOGIES & TOOLS
+      </p>
+
+      <h2 className="text-4xl font-bold text-stone-800">
+        What I Work With
+      </h2>
+    </div>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      {/* Development */}
+      <div className="bg-[#FBF8F4] rounded-[2rem] p-7">
+        <h3 className="text-xl font-semibold text-amber-900 mb-4">
+          Development
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Java • VB.NET • Flutter • Dart • Python • JavaScript
+        </p>
+      </div>
+
+      {/* Web */}
+      <div className="bg-[#FBF8F4] rounded-[2rem] p-7">
+        <h3 className="text-xl font-semibold text-amber-900 mb-4">
+          Web
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          HTML • CSS • PHP • JavaScript
+        </p>
+      </div>
+
+      {/* Database */}
+      <div className="bg-[#FBF8F4] rounded-[2rem] p-7">
+        <h3 className="text-xl font-semibold text-amber-900 mb-4">
+          Database
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Microsoft Access • SQL
+        </p>
+      </div>
+
+      {/* Design */}
+      <div className="bg-[#FBF8F4] rounded-[2rem] p-7">
+        <h3 className="text-xl font-semibold text-amber-900 mb-4">
+          Design
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Figma • Canva
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      </section>
+
+      {/* Skills and Tools*/}
+      <section id="skills" className="px-8 md:px-20 py-24 bg-[#FBF8F4]">
         <div className="grid md:grid-cols-4 gap-3">
 
   <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
@@ -203,55 +271,6 @@ export default function PortfolioWebsite() {
   </div>
 
 </div>
-
-      </section>
-
-      {/* Skills and Tools*/}
-      <section id="skills" className="px-8 md:px-20 py-24 bg-[#FBF8F4]">
-        <div className="max-w-6xl mx-auto">
-
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-stone-800 mb-4">
-              My Skills
-            </h2>
-            <p className="text-stone-600 text-lg">
-               Key skills I use to create intuitive, visually engaging, and user-centered digital experiences.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-3">
-
-            <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">UI Design</h3>
-              <p className="text-stone-600 text-sm">
-                Creating visually appealing and consistent interfaces.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Wireframing</h3>
-              <p className="text-stone-600 text-sm">
-                Structuring layouts before high-fidelity design.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">User Research</h3>
-              <p className="text-stone-600 text-sm">
-                Understanding user behavior and pain points.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-[1.5rem] p-8 shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Prototyping</h3>
-              <p className="text-stone-600 text-sm">
-                Building interactive experiences before development.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
       </section>
 
       {/* Projects */}
@@ -260,7 +279,7 @@ export default function PortfolioWebsite() {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4">Featured Projects</h2>
             <p className="text-gray-500 text-lg">
-              Click a project to explore the UI designs.
+               A collection of projects showcasing my experience in development, design, and problem-solving.
             </p>
           </div>
 
@@ -327,7 +346,7 @@ export default function PortfolioWebsite() {
           <h2 className="text-5xl font-bold mb-6">Let’s Work Together</h2>
 
           <p className="text-amber-100 text-lg mb-10 max-w-2xl mx-auto">
-            I’m currently looking for UI/UX entry-level opportunities.
+           I’m currently open to entry-level opportunities in software development, frontend development, backend development, mobile development, and UI/UX design.
           </p>
 
           <div className="flex flex-col md:flex-row gap-5 justify-center">
