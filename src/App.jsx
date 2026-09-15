@@ -31,7 +31,7 @@ export default function PortfolioWebsite() {
       gallery: [
         medGame
       ],
-      link: 'https://canva.link/wmwbqfl9mhqtbof',
+      link: 'https://github.com/K-mariedizon/MedTech-Reviewer-System.git', //https://canva.link/wmwbqfl9mhqtbof',
     },
     {
       title: 'POS System',
@@ -42,7 +42,7 @@ export default function PortfolioWebsite() {
       gallery: [
         pos
       ],
-      link: 'https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
+      link: 'https://github.com/K-mariedizon/POS-System.git', //https://www.figma.com/design/B4nooao6sXYSeBlh6bur47/.NET?node-id=0-1&t=gsB1nmKl2h3LR4qj-1',
     },
     {
       title: 'Mobile Health Application System',
@@ -53,7 +53,7 @@ export default function PortfolioWebsite() {
       gallery: [
         caresync
       ],
-      link: 'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
+      link: 'https://github.com/K-mariedizon/Mobile-Health-Application.git', //'https://www.figma.com/design/RMTynVQtDq40L63rDwNkXP/SYSAND?t=w3qO7Z8iWYamu6Nd-1',
     },
   ];
 
