@@ -105,7 +105,7 @@ export default function PortfolioWebsite() {
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              I'm <span className="text-amber-900"> Kiana Dizon</span>
+              I'm <span className="text-[#c4623b]-900"> Kiana Dizon</span>
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
@@ -133,7 +133,7 @@ export default function PortfolioWebsite() {
 
           <div className="relative">
             <div className="absolute -top-0 -left-0 w-48 h-48 bg-amber-500 rounded-full blur-3xl opacity-60"></div>
-            <div className="absolute bottom-0 right-0 w-48 h-48 bg-black-500 rounded-full blur-3xl opacity-60"></div>
+            <div className="absolute bottom-0 right-0 w-48 h-48 bg-amber-500 rounded-full blur-3xl opacity-60"></div>
 
             <div className="relative p-5 bg-[#f5f1eb] rounded-[2.5rem] shadow-xl">
 
