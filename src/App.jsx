@@ -816,7 +816,35 @@ export default function PortfolioWebsite() {
 
 
       {/* ================= PROJECTS ================= */}
-      {projects.map((project, index) => (
+      <section
+        id="projects"
+        className="px-6 md:px-12 py-24 md:py-32 bg-[#F8F6F2]"
+      >
+        <div className="max-w-7xl mx-auto">
+
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+
+            <div>
+              <p className="text-sm uppercase tracking-[0.25em] text-stone-400 mb-4">
+                Selected Work
+              </p>
+
+              <h2 className="text-4xl md:text-5xl font-semibold tracking-tight">
+                Featured Projects
+              </h2>
+            </div>
+
+            <p className="max-w-md text-stone-500 leading-relaxed">
+              A collection of projects showcasing my experience
+              across development, design, databases, and problem-solving.
+            </p>
+
+          </div>
+
+
+          <div className="grid md:grid-cols-2 gap-x-8 gap-y-16">
+
+            {projects.map((project, index) => (
 
   <article
     key={project.title}
@@ -897,6 +925,59 @@ export default function PortfolioWebsite() {
   </article>
 
 ))}
+
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* ================= CONTACT ================= */}
+      <section
+        id="contact"
+        className="px-6 md:px-12 py-24 md:py-32 bg-amber-900 text-white"
+      >
+        <div className="max-w-5xl mx-auto text-center">
+
+          <p className="text-sm uppercase tracking-[0.25em] text-amber-200 mb-5">
+            Get in touch
+          </p>
+
+          <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-8">
+            Let's build something
+            <br />
+            meaningful.
+          </h2>
+
+          <p className="max-w-2xl mx-auto text-lg text-amber-100 leading-relaxed mb-10">
+            I'm currently open to entry-level opportunities in software
+            development, frontend development, backend development,
+            mobile development, and UI/UX design.
+          </p>
+
+
+          <div className="flex flex-wrap justify-center gap-4">
+
+            <a
+              href="mailto:kianamariedizon@gmail.com"
+              className="bg-white text-amber-900 px-7 py-4 rounded-full font-medium hover:scale-105 transition"
+            >
+              Send Email
+            </a>
+
+            <button
+              onClick={openLinkedIn}
+              className="border border-amber-200/40 px-7 py-4 rounded-full hover:bg-white hover:text-amber-900 transition"
+            >
+              LinkedIn ↗
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
       {/* ================= FOOTER ================= */}
       <footer className="bg-amber-900 text-amber-100 px-6 md:px-12 pb-8">
 
