@@ -543,7 +543,7 @@ export default function PortfolioWebsite() {
               Developer • UI/UX Designer
             </p>
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold tracking-[-0.04em] leading-[0.95] mb-8">
+            <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold tracking-[-0.04em] leading-[0.95] mb-8">
               Building ideas
               <br />
               <span className="text-amber-900">
