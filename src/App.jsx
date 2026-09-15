@@ -105,7 +105,7 @@ export default function PortfolioWebsite() {
             </p>
 
             <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-6">
-              I'm <span className="text-gray-900"> Kiana Dizon</span>
+              I'm <span className="text-amber-900"> Kiana Dizon</span>
             </h1>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
